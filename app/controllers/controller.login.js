@@ -3,7 +3,7 @@
     .controller('login', function($scope, $location, $window, $route, md5, AppManager) {
       var abc = $route.current.params
       var account_linking_token = abc.account_linking_token
-      var access_token = 'EAAHzb4te058BAIw3qDOlCx6Ro6uFtVlXmQL5gpV7lgbzcKrFffJKtly0pvRhnA40ukUMoQeJt9UDTldswWWe9qzL5fK4DvrqZA1GRmbUOzpV1LOu4nzLZBenmHvlP4qD5QXAanZASEmbJKx1fHpZA9qhYNrSFRk8OMjzovQcuAZDZD'
+      var access_token = 'EAAO6VdlcrtYBANV7PFzHMb8iZAQVEWG3F9xEayKOA4Kfs37tlI3uos28gOsI5HyZAPUOJvtx1xkA2BSu3ZBHFsFJd9jLzmdeypZAi3RBJs5MyleNRU2JV2FkQiK2ZC8Bf86O2djadxHOGBl7GWfuZB7RYMZCcaN6izoVVt3G30IZAwZDZD'
 
 
       $scope.login = function() {

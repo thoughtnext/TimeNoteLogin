@@ -1,0 +1,136 @@
+<nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+        <i class="fa fa-bars"></i>
+      </button>
+      <a class="navbar-brand page-scroll" href="#page-top">
+        <a class="navbar-brand" href="/"><img class="img-responsive" src="assets/images/timenote_logo.png" alt=""></a> <span class="light">Timenote</span>
+      </a>
+    </div>
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+        <li class="hidden">
+          <a href="#page-top"></a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#about">Explore</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#download">My Calendar</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#contact">Jobs</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#download">Press</a>
+        </li>
+        <li>
+          <a class="page-scroll" href="#contact">Job</a>
+        </li>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  </div>
+  <!-- /.container -->
+</nav>
+<header class="intro">
+  <div class="intro-body">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <p class="intro-text">Organise your daily life with your calendars,
+            <br>your social life and your hobbies.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4 col-md-offset-3">
+          <div class="form-group-lg ">
+            <div class="icon-addon addon-lg">
+              <input type="text" gm-places-autocomplete placeholder="Search your location" class="form-control search-lg" id="search" ng-model="address">
+              <a href="" ng-click="show();"><img class="img-responsive loc" src="assets/images/ic_add_location.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 input-group-btn">
+          <button class="btn btn-primary btn-lg search-btn" type="submit"><i class="fa fa-search fa-lg" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+</header>
+<!-- Carousel start -->
+<div id="demo">
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <h2 class="heading-result">Search Result</h2>
+        <div id="owl-demo" class="owl-carousel">
+          <div class="owl-item">
+            <div class="item">
+              <div class=""><img src="assets/images/restaurant.png" class="img-responsive cro-image" alt="" />
+                <span><h4>Barbecue souce method course<br />14 OCT 2016&nbsp;&nbsp;&nbsp;&nbsp; 10AM</h4></span>
+                <a href=""> <img src="assets/images/User_converted.png" class="img-responsive user-img" alt="" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="owl-item">
+            <div class="item">
+              <div class=""><img src="assets/images/restaurant2.png" class="img-responsive cro-image" alt="" />
+                <span><h4>The Principles Of Scientific Cooking<br />15 OCT 2016&nbsp;&nbsp;&nbsp;&nbsp; 10AM</h4></span>
+                <a href=""><img src="assets/images/User_converted.png" class="img-responsive user-img" alt="" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="owl-item">
+            <div class="item">
+              <div class=""><img src="assets/images/restaurant3.png" class="img-responsive cro-image" alt="" />
+                <span><h4>Types Of Cookware Pots And Pans<br />16 OCT 2016&nbsp;&nbsp;&nbsp;&nbsp; 10AM</h4></span>
+                <a href=""><img src="assets/images/User_converted.png" class="img-responsive user-img" alt="" /></a>
+              </div>
+            </div>
+          </div>
+          <div class="owl-item">
+            <div class="item">
+              <div class=""><img src="assets/images/restaurant2.png" class="img-responsive cro-image" alt="" />
+                <span><h4>Cast Iron Cookware<br/>17 OCT 2016&nbsp;&nbsp;&nbsp;&nbsp; 10AM</h4></span>
+                <a href=""><img src="assets/images/User_converted.png" class="img-responsive user-img" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Carousel End -->
+<!-- Download Section -->
+<section id="contact" class="container content-section text-center">
+  <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+      <h2 class="down-heading">Download Timenote app Now</h2>
+      <ul class="list-inline banner-social-buttons">
+        <li>
+          <a href=""><img class="img-responsive loc" src="assets/images/appstore.png" alt=""></a>
+        </li>
+        <li>
+          <a><img class="img-responsive" src="assets/images/google-play-store.png" alt=""></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>
+<!-- Download Section End -->
+<script>
+$(document).ready(function() {
+  $("#owl-demo").owlCarousel({
+    autoPlay: 3000,
+    items: 3,
+    itemsDesktop: [1199, 3],
+    itemsDesktopSmall: [979, 3]
+  });
+
+});
+</script>

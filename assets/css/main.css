@@ -1,0 +1,17 @@
+.theme-bg-color {
+  background-color: #2B3840;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.md-button.md-default-theme:not([disabled]):hover, .md-button:not([disabled]):hover {
+    background-color: rgba(158,158,158,0.2);
+    color: black;
+}
+
+.icon {
+  color: #2B3840;
+}
+
+md-switch {
+  margin: 5px 0;
+}

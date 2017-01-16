@@ -1,17 +1,30 @@
-.theme-bg-color {
-  background-color: #2B3840;
-  color: rgba(255, 255, 255, 0.87);
+/*html,
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+*/
+.light {
+  color: #fff;
+  font-size: 24px;
 }
 
-.md-button.md-default-theme:not([disabled]):hover, .md-button:not([disabled]):hover {
-    background-color: rgba(158,158,158,0.2);
-    color: black;
+.transparent-background {
+  background: transparent;
 }
 
-.icon {
-  color: #2B3840;
+.text-color {
+  color: white;
 }
 
-md-switch {
-  margin: 5px 0;
+.bg-color {
+  background-color: white;
+}
+
+/*.bg {
+  background: linear-gradient(138.51deg, #06549E 0%, #383D8B 30.37%, #4F3889 41.43%, #7B2D84 63.1%, #DA28B6 100%);
+}*/
+body {
+  background: linear-gradient(138.51deg, #06549E 0%, #383D8B 30.37%, #4F3889 41.43%, #7B2D84 63.1%, #DA28B6 100%);
 }

@@ -11,5 +11,6 @@
         enabled: true,
         requireBase: false
       })
+      $mdThemingProvider.disableTheming();
     })
 })();
